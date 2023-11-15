@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.Hekla-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Matti-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .Hekla-logo {
+    animation: Hekla-logo-spin infinite 20s linear;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Matti-logo {
+    animation: Matti-logo-spin infinite 5s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes Hekla-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Matti-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
